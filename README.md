@@ -28,9 +28,9 @@ Install the project.
 
 Terminal:
 
-- Clone this repository `git clone https://github.com/alezunanadhif/personal-blog-laravel`
+- Clone this repository `git clone https://github.com/alezunanadhif/list-data-siswa`
 
-- Enter the directory `cd simple-personal-blog`
+- Enter the directory `cd list-data-siswa`
 
 - If there is no file `.env` Run `cp .env.example .env`
 
