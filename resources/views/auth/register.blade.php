@@ -39,6 +39,7 @@
                         <input type="password" class="form-control" id="password_confirmation" name="password_confirmation">
                     </div>
                     <button type="submit" class="btn btn-primary">Register</button>
+                    <a href="{{ url('/login') }}" class="">already have an account</a>
                 </form>
             </div>
         </div>
