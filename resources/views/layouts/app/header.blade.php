@@ -56,15 +56,15 @@
             <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth::user()->name }}</span>
             <img class="img-profile rounded-circle" src="https://ui-avatars.com/api/?background=000&color=fff&name={{ Auth::user()->name }}">
             @else
-            <i class="fas fa-user fa-sm fa-fw mr-2 fs-4 text-gray-400"></i>
+            <button class="btn btn-primary">Select</button>
             @endif
         </div>
     </a>
     <!-- Dropdown - User Information -->
     <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
         @if(!Auth::check())
-                <a href="{{url('/login')}}" class="btn dropdown-item"><i class="fas fa-door-open fa-sm fa-fw mr-2 text-gray-400"></i> Login</a>
-                <a href="{{url('/register')}}" class="btn dropdown-item"><i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Register</a>
+                <a href="{{url('/login')}}" class="btn dropdown-item">Login</a>
+                <a href="{{url('/register')}}" class="btn dropdown-item">Register</a>
         @else
         <a class="dropdown-item" href="{{ url('home') }}">
             <i class="fas fa-home fa-sm fa-fw mr-2 text-gray-400"></i>
