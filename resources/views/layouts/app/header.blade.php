@@ -56,7 +56,7 @@
             <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth::user()->name }}</span>
             <img class="img-profile rounded-circle" src="https://ui-avatars.com/api/?background=000&color=fff&name={{ Auth::user()->name }}">
             @else
-            <button class="btn btn-primary">Select</button>
+            <button class="btn btn-primary">Select </button>
             @endif
         </div>
     </a>
